@@ -1,0 +1,7 @@
+﻿*.c linguist-language=C
+*.h linguist-language=C
+
+c-engine/include/stb_image.h linguist-vendored
+c-engine/legacy/** linguist-documentation
+assets/** linguist-vendored
+web/dist/** linguist-generated

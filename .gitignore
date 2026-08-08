@@ -1,0 +1,35 @@
+# C build
+*.o
+*.d
+*.exe
+*.out
+*.a
+*.so
+*.dylib
+c-engine/build/
+build/
+
+# Web
+web/node_modules/
+web/dist/
+web/.vite/
+*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs / env
+*.log
+.env
+.env.*
+
+# Debug
+*.dSYM/
+*.pdb
+*.idb
+.vercel
