@@ -21,7 +21,7 @@ export default function HeroScene({ image }) {
                 : `translate3d(${pointer.x * -6}px, ${pointer.y * -4}px, 0)`,
             }}
           >
-            <p className="scene-kicker glow">img2ascii-c</p>
+            <p className="scene-kicker glow">LumaForm</p>
             <h1 className="display display-lit">
               Every image
               <br />

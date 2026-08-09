@@ -25,7 +25,7 @@ export default function AsciiWorkspace({
       id="workspace"
     >
       <header className="workspace-top">
-        <p className="brand">img2ascii-c</p>
+        <p className="brand">LumaForm</p>
         <div className="workspace-meta">
           <span className="mono file-chip">{meta?.name}</span>
           <span className="mono muted dims">

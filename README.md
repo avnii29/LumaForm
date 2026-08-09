@@ -1,6 +1,6 @@
 # LumaForm
 
-**Live demo:** [img2ascii-c.vercel.app](https://img2ascii-c.vercel.app)
+**Live demo:** [lumaform.vercel.app](https://lumaform.vercel.app)
 
 Turn any image into ASCII art as a **terminal CLI** (C) or a **browser app** (React). The web app runs entirely on your device: **your images stay in your browser.**
 
@@ -39,7 +39,7 @@ Upload a photo and get ASCII that aims to preserve shapes, edges, brightness, an
 
 ## Live demo
 
-**Live Demo:** [https://img2ascii-c.vercel.app](https://img2ascii-c.vercel.app)
+**Live Demo:** [https://lumaform.vercel.app](https://lumaform.vercel.app)
 
 ### Screenshots
 
@@ -64,7 +64,7 @@ Upload a photo and get ASCII that aims to preserve shapes, edges, brightness, an
 ## Project structure
 
 ```
-img2ascii-c/
+LumaForm/
 ├── c-engine/          # C terminal CLI (buildable on its own)
 │   ├── src/
 │   ├── include/

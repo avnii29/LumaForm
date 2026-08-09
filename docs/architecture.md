@@ -1,6 +1,6 @@
 # Architecture
 
-img2ascii-c has two implementations that share the same *ideas*, not the same binary:
+LumaForm has two implementations that share the same *ideas*, not the same binary:
 
 1. **`c-engine/`** — terminal CLI (C99 + stb_image)
 2. **`web/`** — browser app (React + Vite), all processing local

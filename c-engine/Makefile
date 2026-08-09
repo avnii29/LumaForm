@@ -1,4 +1,4 @@
-# img2ascii-c — terminal CLI
+# LumaForm — terminal CLI
 CC     = gcc
 CFLAGS = -Wall -Wextra -std=c99 -Iinclude
 LIBS   = -lm
