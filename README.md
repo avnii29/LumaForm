@@ -1,4 +1,4 @@
-# img2ascii-c
+# LumaForm
 
 **Live demo:** [img2ascii-c.vercel.app](https://img2ascii-c.vercel.app)
 
