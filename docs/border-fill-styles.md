@@ -1,15 +1,15 @@
 # Border Patterns, Fill Styles, and Intelligent Edge Detection
 
 ## Overview
-The img2ascii tool now supports custom border patterns, fill symbols, and **intelligent edge-based borders** for enhanced ASCII art visualization.
+The lumaform tool now supports custom border patterns, fill symbols, and **intelligent edge-based borders** for enhanced ASCII art visualization.
 
 ## Quick Start
 
 ### Default (Intelligent Borders)
 ```bash
-.\img2ascii.exe
-.\img2ascii.exe image.jpg
-.\img2ascii.exe -w 80 image.jpg
+.\lumaform.exe
+.\lumaform.exe image.jpg
+.\lumaform.exe -w 80 image.jpg
 ```
 By default, borders automatically adapt to image content:
 - **Strong edges** (hair, defined features) → `|` (pipe)
@@ -58,52 +58,52 @@ Replace the default ASCII character set with a single symbol:
 ### Intelligent Borders (Default)
 ```bash
 # Default: smart edge detection, adapts to image
-.\img2ascii.exe image.jpg
+.\lumaform.exe image.jpg
 
 # Control with explicit flag
-.\img2ascii.exe --intelligent image.jpg
-.\img2ascii.exe --no-intelligent --border dash image.jpg
+.\lumaform.exe --intelligent image.jpg
+.\lumaform.exe --no-intelligent --border dash image.jpg
 ```
 
 ### Fixed Borders
 ```bash
 # Pipe border (consistent style)
-.\img2ascii.exe --border pipe image.jpg
+.\lumaform.exe --border pipe image.jpg
 
 # Dash border
-.\img2ascii.exe --border dash image.jpg
+.\lumaform.exe --border dash image.jpg
 
 # Underscore border
-.\img2ascii.exe --border underscore image.jpg
+.\lumaform.exe --border underscore image.jpg
 
 # Alternating pattern borders
-.\img2ascii.exe --border dash-star image.jpg
-.\img2ascii.exe --border dash-dot image.jpg
-.\img2ascii.exe --border under-dot image.jpg
+.\lumaform.exe --border dash-star image.jpg
+.\lumaform.exe --border dash-dot image.jpg
+.\lumaform.exe --border under-dot image.jpg
 ```
 
 ### Fill Symbols Only
 ```bash
 # Hash fill (uses default intelligent borders)
-.\img2ascii.exe --fill hash image.jpg
+.\lumaform.exe --fill hash image.jpg
 
 # Stars with fixed pipe border
-.\img2ascii.exe --border pipe --fill stars image.jpg
+.\lumaform.exe --border pipe --fill stars image.jpg
 
 # Dollars with dash-dot pattern
-.\img2ascii.exe --border dash-dot --fill dollar image.jpg
+.\lumaform.exe --border dash-dot --fill dollar image.jpg
 ```
 
 ### Combined Options
 ```bash
 # Width + mode + border + fill
-.\img2ascii.exe -w 100 --mode hybrid --border dash --fill hash image.jpg
+.\lumaform.exe -w 100 --mode hybrid --border dash --fill hash image.jpg
 
 # Edge detection mode with intelligent borders
-.\img2ascii.exe -w 60 --mode edges image.jpg
+.\lumaform.exe -w 60 --mode edges image.jpg
 
 # Brightness mode with fixed pipe border and percent fill
-.\img2ascii.exe -w 80 --mode brightness --border pipe --fill percent image.jpg
+.\lumaform.exe -w 80 --mode brightness --border pipe --fill percent image.jpg
 ```
 
 ## Advanced Features
@@ -169,7 +169,7 @@ Pattern borders with two characters create vertical variation:
 
 ```
 USAGE:
-  .\img2ascii.exe [options] [image.jpg]
+  .\lumaform.exe [options] [image.jpg]
 
 OPTIONS:
   -w WIDTH              Width in characters (default: 80)

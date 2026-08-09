@@ -5,7 +5,7 @@ LIBS   = -lm
 
 SRCS = $(wildcard src/*.c)
 OBJS = $(patsubst src/%.c, build/%.o, $(SRCS))
-TARGET = build/img2ascii
+TARGET = build/lumaform
 
 all: $(TARGET)
 

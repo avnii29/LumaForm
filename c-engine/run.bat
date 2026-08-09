@@ -1,6 +1,6 @@
 @echo off
 if "%~1"=="" (
-    build\img2ascii.exe ..\assets\sample.jpg
+    build\lumaform.exe ..\assets\sample.jpg
 ) else (
-    build\img2ascii.exe %1
+    build\lumaform.exe %1
 )

@@ -1,6 +1,6 @@
 # LumaForm
 
-**Live demo:** [lumaform.vercel.app](https://lumaform.vercel.app)
+**Live demo:** [lumaform-app.vercel.app](https://lumaform-app.vercel.app)
 
 Turn any image into ASCII art as a **terminal CLI** (C) or a **browser app** (React). The web app runs entirely on your device: **your images stay in your browser.**
 
@@ -39,7 +39,7 @@ Upload a photo and get ASCII that aims to preserve shapes, edges, brightness, an
 
 ## Live demo
 
-**Live Demo:** [https://lumaform.vercel.app](https://lumaform.vercel.app)
+**Live Demo:** [https://lumaform-app.vercel.app](https://lumaform-app.vercel.app)
 
 ### Screenshots
 
@@ -110,9 +110,9 @@ Requirements: GCC (C99), Make, `libm`.
 
 ```bash
 make             # or: make -C c-engine
-./c-engine/build/img2ascii assets/sample.jpg
-./c-engine/build/img2ascii -w 100 --mode hybrid assets/moon.png
-./c-engine/build/img2ascii --no-color --output out.txt assets/sample.jpg
+./c-engine/build/lumaform assets/sample.jpg
+./c-engine/build/lumaform -w 100 --mode hybrid assets/moon.png
+./c-engine/build/lumaform --no-color --output out.txt assets/sample.jpg
 ```
 
 Windows: use `c-engine/build.bat`.
