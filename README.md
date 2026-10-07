@@ -190,12 +190,13 @@ The web app processes images with the Canvas API in your browser. Nothing is sen
 - More character sets / custom charset
 - Side-by-side compare slider
 - Screenshot / GIF assets in `docs/screenshots/`
+- More image-processing options
 
 ---
 
 ## Credits
 
-- [stb_image](https://github.com/nothings/stb) by Sean Barrett — C image loading
+- [stb_image](https://github.com/nothings/stb) by Sean Barrett - C image loading
 - Inspired by [ascii-view](https://github.com/gouwsxander/ascii-view)
 
 ## License
